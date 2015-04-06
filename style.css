@@ -1,0 +1,132 @@
+/* BEGIN BASIC FORUM STYLES */
+body {
+	background-image:url('./hq-wallpapers_ru_abstraction3d_40759_1920x1200.jpg');
+	text-align: center;
+	background-size: 1800px 1600px;			/* make sure IE centers the page too */
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto; 			/* center the page */
+}
+
+#content {
+	background-color: #fff;
+	border: 1px solid #000;
+	float: left;
+	font-family: Arial;
+	font-size:20px;
+	padding: 20px 30px;
+	text-align: left;
+	width: 100%;				/* fill up the entire div */
+}
+
+#menu {
+float: left;
+border: 1px solid #000;
+border-bottom: none;		/* avoid a double border */
+clear: both;				/* clear:both makes sure the content div doesn't float next to this one but stays under it */
+width:100%;
+height:23px;
+padding: 0 30px;
+background-color: #FFF;
+text-align: left;
+font-size: 85%;
+}
+
+#menu a:hover {
+	background-color: #228B57;
+	width: 30px;
+	height:23px;
+}
+
+#userbar {
+	background-color: #fff;
+	float: right;
+	width: 300px;
+}
+
+#footer {
+	clear: both;
+}
+
+/* begin table styles */
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table a {
+	color: #0000FF;
+}
+
+table a:hover {
+	color:#4169E1;
+	text-decoration: none;
+}
+
+th {
+	background-color: #000000;
+	color: #F0F0F0;
+	width:auto;
+}
+
+td {
+	padding: 5px;
+	width:auto;
+	font-size:15px;
+	color:#0000FF;
+}
+
+/* Begin font styles */
+h1, #footer {
+	font-family:Lucida ;
+	color: #000000;
+	font-size:50px;
+}
+
+h3 {margin: 0; padding: 0;font-size:18px;}
+
+/* Menu styles */
+.item {
+	background-color: #008000;
+	border: 1px solid #032472;
+	color: #FFF;
+	font-family: Arial;
+	font-size:15px;
+	padding: 3px;
+	text-decoration: none;
+
+}
+
+.leftpart {
+	width:auto;
+	max-width: 40% !important;
+}
+
+.rightpart {
+	width:auto;
+}
+
+.small {
+	font-size: 75%;
+	color: #373737;
+}
+#footer {
+	font-size: 100%;
+	padding: 3px 0 0 0;
+}
+
+.topic-post {
+	height: 100px;
+	overflow: auto;
+}
+
+.post-content {
+	padding: 30px;
+}
+
+textarea {
+	width: 500px;
+	height: 200px;
+}
